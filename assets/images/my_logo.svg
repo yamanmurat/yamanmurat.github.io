@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="3.1849999in"
+   height="1.87in"
+   viewBox="0 0 80.898999 47.498"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="my_logo.png"
+   inkscape:export-xdpi="250"
+   inkscape:export-ydpi="250"
+   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
+   sodipodi:docname="my_logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:lockguides="true"
+     inkscape:zoom="0.5946522"
+     inkscape:cx="254.77077"
+     inkscape:cy="380.05409"
+     inkscape:window-width="1920"
+     inkscape:window-height="978"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:4.97417px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:none;stroke-width:0.264583"
+       x="14.629766"
+       y="43.181412"
+       id="text467"><tspan
+         sodipodi:role="line"
+         id="tspan465"
+         x="14.629766"
+         y="43.181412"
+         style="stroke-width:0.264583" /></text>
+    <g
+       id="g586">
+      <text
+         xml:space="preserve"
+         style="font-size:66.1458px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:none;stroke-width:0.264583"
+         x="-5.1676407"
+         y="34.400215"
+         id="text305"><tspan
+           sodipodi:role="line"
+           id="tspan303"
+           x="-5.1676407"
+           y="34.400215"
+           style="font-size:66.1458px;stroke-width:0.264583">μ<tspan
+   style="font-size:52.9167px"
+   id="tspan473" /></tspan></text>
+      <g
+         id="g570"
+         transform="translate(-26.175665,-34.433705)">
+        <text
+           xml:space="preserve"
+           style="font-size:52.9167px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:none;stroke-width:0.264583"
+           x="62.966164"
+           y="72.412575"
+           id="text471"><tspan
+             sodipodi:role="line"
+             id="tspan469"
+             x="62.966164"
+             y="72.412575"
+             style="font-size:52.9167px;stroke-width:0.264583">Ψ</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:51.5089px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:none;stroke-width:0.264583"
+           x="80.109322"
+           y="75.196136"
+           id="text477"
+           transform="scale(0.9733959,1.0273312)"><tspan
+             sodipodi:role="line"
+             id="tspan475"
+             style="font-size:51.5089px;stroke-width:0.264583"
+             x="80.109322"
+             y="75.196136">.</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:51.5089px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:none;stroke-width:0.264583"
+           x="80.106964"
+           y="79.453346"
+           id="text477-0"
+           transform="scale(0.97339592,1.0273312)"><tspan
+             sodipodi:role="line"
+             id="tspan475-5"
+             style="font-size:51.5089px;stroke-width:0.264583"
+             x="80.106964"
+             y="79.453346">.</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:52.9167px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:none;stroke-width:0.264583"
+         x="28.921072"
+         y="47.545403"
+         id="text535"><tspan
+           sodipodi:role="line"
+           id="tspan533"
+           style="font-size:52.9167px;stroke-width:0.264583"
+           x="28.921072"
+           y="47.545403">.</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:52.9167px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;font-variant-ligatures:none;stroke-width:0.264583"
+         x="70.785454"
+         y="47.545403"
+         id="text535-2"><tspan
+           sodipodi:role="line"
+           id="tspan533-4"
+           style="font-size:52.9167px;stroke-width:0.264583"
+           x="70.785454"
+           y="47.545403">.</tspan></text>
+    </g>
+  </g>
+</svg>
