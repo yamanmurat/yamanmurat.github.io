@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Murat Yaman, Ph.D. | Computational Biochemist</title>
     <meta name="description" content="Murat Yaman, Ph.D. Computational biochemist working on quantum mechanics, molecular dynamics and conformational free energy methods for carbohydrates and biomolecules.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,300;6..96,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1 class="logo"><span class="user-name">Murat Yaman, Ph.D.</span></h1>
+            <p class="logo">Murat Yaman, Ph.D.</p>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">Menu</button>
             <nav>
-                <ul>
+                <ul id="nav-list">
                     <li><a href="#about">About</a></li>
                     <li><a href="#research">Research</a></li>
                     <li><a href="#publications">Publications</a></li>
@@ -27,319 +30,362 @@
 
     <section id="hero">
         <div class="container">
-            <div class="hero-content">
-                <h2>Computational Biochemistry &amp; Molecular Modeling</h2>
-                <p>Quantum mechanics, molecular dynamics and conformational free energy methods applied to the structure, dynamics and flexibility of biomolecules &middot; New York, NY</p>
+            <p class="eyebrow">Ph.D. Computational Biochemistry &middot; New York, NY</p>
+            <h1>Murat Yaman</h1>
+            <p class="hero-sub">Quantum mechanics, molecular dynamics and conformational free energy methods</p>
+            <p class="hero-lede">The structure, dynamics and flexibility of biomolecules, modeled from first principles and validated against experiment.</p>
+            <div class="hero-meta">
+                <a href="#publications">Publications</a>
+                <a href="#software">Software</a>
+                <a href="#cv">CV</a>
+                <a href="mailto:muratyaman.phd@gmail.com">muratyaman.phd@gmail.com</a>
             </div>
         </div>
     </section>
 
-    <section id="about" class="section">
+    <section id="about" class="section section--paper">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>I am a computational biochemist (Ph.D., The Graduate Center, CUNY) applying quantum mechanics, molecular dynamics and conformational free energy methods to the structure, dynamics and flexibility of biomolecules, with a track record of validating physics-based models against quantum-mechanical and experimental data from NMR and gas-phase spectroscopy.</p>
+            <div class="section-head">
+                <p class="eyebrow">01 / About</p>
+                <h2 class="section-title">About</h2>
+            </div>
+            <div class="prose">
+                <p>I am a computational biochemist (Ph.D., The Graduate Center, CUNY) applying quantum mechanics, molecular dynamics and conformational free energy methods to the structure, dynamics and flexibility of biomolecules, with a track record of validating physics-based models against quantum-mechanical and experimental data from NMR and gas-phase spectroscopy.</p>
 
-                    <p>My doctoral work, carried out in the Marianski group at Hunter College, asked how external factors shape the conformational free energy landscapes of carbohydrates, from small oligosaccharides to blood group antigens. Alongside the simulations I build production-quality Python software, cheminformatics workflows and HPC pipelines that keep this kind of modeling reproducible.</p>
+                <p>My doctoral work, carried out in the Marianski group at Hunter College, asked how external factors shape the conformational free energy landscapes of carbohydrates, from small oligosaccharides to blood group antigens. Alongside the simulations I build production-quality Python software, cheminformatics workflows and HPC pipelines that keep this kind of modeling reproducible.</p>
 
-                    <p>My background spans computational, physical, analytical and biochemistry, and my research sits close to therapeutics. I am currently looking to apply physics-based molecular modeling to structure-based drug discovery.</p>
+                <p>My background spans computational, physical, analytical and biochemistry, and my research sits close to therapeutics. I am currently looking to apply physics-based molecular modeling to structure-based drug discovery.</p>
 
-                    <p>Areas I work in:</p>
-                    <ul>
-                        <li>Conformational free energy landscapes of carbohydrates and blood group antigens</li>
-                        <li>Benchmarking density functionals, basis sets and force fields against QM and experimental observables</li>
-                        <li>Mechanistic studies of glycan rearrangements during mass-spectrometric analysis, including <em>ab initio</em> molecular dynamics</li>
-                        <li>Open, maintainable scientific software for simulation-data curation, benchmarking and visualization</li>
-                    </ul>
-
-                </div>
+                <p class="eyebrow" style="margin-top:36px;">Areas I work in</p>
+                <ul>
+                    <li>Conformational free energy landscapes of carbohydrates and blood group antigens</li>
+                    <li>Benchmarking density functionals, basis sets and force fields against QM and experimental observables</li>
+                    <li>Mechanistic studies of glycan rearrangements during mass-spectrometric analysis, including <em>ab initio</em> molecular dynamics</li>
+                    <li>Open, maintainable scientific software for simulation-data curation, benchmarking and visualization</li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <section id="research" class="section">
+    <section id="research" class="section section--blue">
         <div class="container">
-            <h2 class="section-title">Research Focus</h2>
-            <div class="research-areas">
-                <div class="research-area">
-                    <div class="research-icon">
-                        <i class="fas fa-atom"></i>
-                    </div>
-                    <h3>Quantum Chemistry &amp; Benchmarking</h3>
+            <div class="section-head">
+                <p class="eyebrow">02 / Research</p>
+                <h2 class="section-title">Research Focus</h2>
+            </div>
+            <div class="grid-3">
+                <div class="cell">
+                    <p class="eyebrow">#1 Quantum Chemistry</p>
+                    <h3>Method Benchmarking</h3>
                     <p>Benchmarking density functionals and basis sets for harmonic and anharmonic molecular vibrations, and validating computed spectra against experimental gas-phase measurements.</p>
                 </div>
-                <div class="research-area">
-                    <div class="research-icon">
-                        <i class="fas fa-wave-square"></i>
-                    </div>
+                <div class="cell">
+                    <p class="eyebrow">#2 Dynamics</p>
                     <h3>Free Energy Landscapes</h3>
                     <p>Mapping the conformational free energy landscapes of carbohydrates with classical and <em>ab initio</em> molecular dynamics, DFT conformer free energies and Boltzmann-weighted ensembles.</p>
                 </div>
-                <div class="research-area">
-                    <div class="research-icon">
-                        <i class="fas fa-laptop-code"></i>
-                    </div>
-                    <h3>Scientific Software &amp; HPC</h3>
+                <div class="cell">
+                    <p class="eyebrow">#3 Infrastructure</p>
+                    <h3>Software and HPC</h3>
                     <p>Building Python packages and Slurm-based pipelines that automate curation, benchmarking and publication-quality visualization of large-scale simulation data.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="publications" class="section">
+    <section id="publications" class="section section--paper">
         <div class="container">
-            <h2 class="section-title">Publications</h2>
-            <div class="publications-list">
-                <p class="publication-note">Full list on <a href="https://scholar.google.com/citations?user=yCsyEBUAAAAJ" target="_blank" rel="noopener">Google Scholar</a> and <a href="https://orcid.org/0000-0001-6563-1434" target="_blank" rel="noopener">ORCID</a>.</p>
+            <div class="section-head">
+                <p class="eyebrow">03 / Publications</p>
+                <h2 class="section-title">Publications</h2>
+            </div>
 
-                <h3 class="subsection-title">Peer-Reviewed Journal Articles</h3>
+            <p class="lede-note">Full list on <a href="https://scholar.google.com/citations?user=yCsyEBUAAAAJ" target="_blank" rel="noopener">Google Scholar</a> and <a href="https://orcid.org/0000-0001-6563-1434" target="_blank" rel="noopener">ORCID</a></p>
 
-                <div class="publication">
+            <p class="list-label">Peer-Reviewed Journal Articles</p>
+
+            <article class="entry">
+                <p class="entry-num">01</p>
+                <div>
                     <h3>Mechanistic study on the sulfate migration in glycosaminoglycans during MS fragmentation</h3>
                     <p class="authors">Polewski, &#321;.<sup>&dagger;</sup>; <strong>Yaman, M.</strong><sup>&dagger;</sup>; Toki&#263;, M.; Marianski, M.; Pagel, K.</p>
-                    <p class="journal"><em>Communications Chemistry</em>, 2026, 9(1), 130. <span class="note">&dagger;Co-first authors, equal contribution.</span></p>
+                    <p class="journal">Communications Chemistry &middot; 2026 &middot; 9(1), 130 &nbsp;<span class="note">&dagger;Co-first authors, equal contribution</span></p>
                 </div>
+            </article>
 
-                <div class="publication">
+            <article class="entry">
+                <p class="entry-num">02</p>
+                <div>
                     <h3>Reinvestigation of the internal glycan rearrangement of Lewis a and blood group type H1 epitopes</h3>
                     <p class="authors">Kontodimas, V.; <strong>Yaman, M.</strong>; Greis, K.; Lettow, M.; Pagel, K.; Marianski, M.</p>
-                    <p class="journal"><em>Physical Chemistry Chemical Physics</em>, 2024, 26, 14160&ndash;14170.</p>
+                    <p class="journal">Physical Chemistry Chemical Physics &middot; 2024 &middot; 26, 14160&ndash;14170</p>
                 </div>
+            </article>
 
-                <div class="publication">
+            <article class="entry">
+                <p class="entry-num">03</p>
+                <div>
                     <h3>Decoding the fucose migration product during mass-spectrometric analysis of blood group epitopes</h3>
                     <p class="authors">Lettow, M.; Greis, K.; Mucha, E.; Lambeth, T. R.; <strong>Yaman, M.</strong>; Kontodimas, V.; Manz, C.; Hoffmann, W.; Meijer, G.; Julian, R. R.; von Helden, G.; Marianski, M.; Pagel, K.</p>
-                    <p class="journal"><em>Angewandte Chemie International Edition</em>, 2023, 62(24), e202302883.</p>
+                    <p class="journal">Angewandte Chemie International Edition &middot; 2023 &middot; 62(24), e202302883</p>
                 </div>
+            </article>
 
-                <div class="publication">
+            <article class="entry">
+                <p class="entry-num">04</p>
+                <div>
                     <h3>Crystal-to-crystal transition and the structure development of electrospun poly(ethylene 2,6-naphthalate) (PEN) nanofibers from solution</h3>
                     <p class="authors"><strong>Yaman, M.</strong>; Lu, P.; Vasanthan, N.</p>
-                    <p class="journal"><em>The Journal of Physical Chemistry B</em>, 2019, 123(27), 5954&ndash;5961.</p>
+                    <p class="journal">The Journal of Physical Chemistry B &middot; 2019 &middot; 123(27), 5954&ndash;5961</p>
                 </div>
+            </article>
 
-                <h3 class="subsection-title">Manuscripts in Preparation</h3>
+            <p class="list-label">Manuscripts in Preparation</p>
 
-                <div class="publication">
+            <article class="entry">
+                <p class="entry-num">05</p>
+                <div>
                     <h3>Mapping out the flexibility of oligosaccharides: a conformational study of Lewis antigens and their fragments</h3>
                     <p class="authors"><strong>Yaman, M.</strong>; Kwon, J.; Widmalm, G.; Marianski, M.; Freedberg, D.</p>
                 </div>
+            </article>
 
-                <div class="publication">
+            <article class="entry">
+                <p class="entry-num">06</p>
+                <div>
                     <h3>Mechanistic insights into fucose migration through <em>ab initio</em> molecular dynamics (AIMD) simulations</h3>
                     <p class="authors"><strong>Yaman, M.</strong>; Horlebein, J.; Geue, N.; Safferthal, M.; Pagel, K.; Marianski, M.</p>
                 </div>
+            </article>
 
-                <div class="publication">
+            <article class="entry">
+                <p class="entry-num">07</p>
+                <div>
                     <h3>Comprehensive benchmark studies on the accuracy of functionals and basis sets for harmonic and anharmonic molecular vibrations of oxocarbenium ions</h3>
                     <p class="authors"><strong>Yaman, M.</strong>; Marianski, M.</p>
                 </div>
-            </div>
+            </article>
         </div>
     </section>
 
-    <section id="software" class="section">
+    <section id="software" class="section section--blue">
         <div class="container">
-            <h2 class="section-title">Software</h2>
-            <div class="publications-list">
-                <div class="publication">
+            <div class="section-head">
+                <p class="eyebrow">04 / Software</p>
+                <h2 class="section-title">Software</h2>
+            </div>
+            <div class="grid-3">
+                <div class="cell">
+                    <p class="eyebrow">Main developer and maintainer</p>
                     <h3>CarPpy</h3>
-                    <p class="authors">Main developer and maintainer</p>
-                    <p class="description">End-to-end Python pipeline for automated curation and benchmarking of molecular conformers from Gaussian log files: generates and compares IR spectra, computes RMSD and Pendry R-factors, visualizes energetic landscapes, and optimizes structures via a built-in genetic algorithm.</p>
-                    <p><a href="https://github.com/marianski-lab/CarPpy" target="_blank" rel="noopener"><i class="fab fa-github"></i> github.com/marianski-lab/CarPpy</a></p>
+                    <p>End-to-end Python pipeline for automated curation and benchmarking of molecular conformers from Gaussian log files: generates and compares IR spectra, computes RMSD and Pendry R-factors, visualizes energetic landscapes, and optimizes structures via a built-in genetic algorithm.</p>
+                    <p style="margin-top:18px;"><a href="https://github.com/marianski-lab/CarPpy" target="_blank" rel="noopener">github.com/marianski-lab/CarPpy</a></p>
                 </div>
-                <div class="publication">
+                <div class="cell">
+                    <p class="eyebrow">Main developer and maintainer</p>
                     <h3>matmalib</h3>
-                    <p class="authors">Main developer and maintainer</p>
-                    <p class="description">Scientific Python library for publication-quality figures and visualization of simulation data from Gaussian 16, GROMACS, ORCA and CP2K: free energy maps, MD trajectories, scatter plots and histograms.</p>
-                    <p class="note">Private repository during an ongoing commercialization and IP process.</p>
+                    <p>Scientific Python library for publication-quality figures and visualization of simulation data from Gaussian 16, GROMACS, ORCA and CP2K: free energy maps, MD trajectories, scatter plots and histograms.</p>
+                    <p style="margin-top:18px;" class="note">Private repository during an ongoing commercialization and IP process.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="cv" class="section">
+    <section id="cv" class="section section--paper">
         <div class="container">
-            <h2 class="section-title">CV</h2>
-            <div class="cv-content">
-                <div class="cv-section">
-                    <h3>Education</h3>
-                    <div class="cv-item">
-                        <h4>Ph.D. in Computational Biochemistry</h4>
+            <div class="section-head">
+                <p class="eyebrow">05 / Curriculum Vitae</p>
+                <h2 class="section-title">CV</h2>
+            </div>
+
+            <div class="cv-block">
+                <h3>Education</h3>
+                <div class="cv-item">
+                    <div class="cv-meta">
                         <p class="institution">The Graduate Center, CUNY</p>
-                        <p class="year">September 2020 &ndash; June 2026</p>
-                        <p class="description">Thesis: <em>The Role of External Factors in Shaping Carbohydrate Conformational Landscapes</em></p>
+                        <p class="year">Sept 2020 &ndash; June 2026</p>
+                    </div>
+                    <div class="cv-body">
+                        <h4>Ph.D. in Computational Biochemistry</h4>
+                        <p>Thesis: <em>The Role of External Factors in Shaping Carbohydrate Conformational Landscapes</em></p>
                         <ul>
                             <li>Characterized how external environmental factors shape the conformational free energy landscapes of carbohydrates, from small oligosaccharides to blood group antigens.</li>
                             <li>Led benchmarking of quantum-chemical methods for vibrational spectroscopy, quantifying the accuracy of density functionals and basis sets for harmonic and anharmonic molecular vibrations.</li>
                             <li>Demonstrated that the choice of classical force field markedly changes the predicted conformational ensembles of Lewis-antigen glycans.</li>
                         </ul>
                     </div>
-                    <div class="cv-item">
-                        <h4>M.Sc. in Physical Chemistry</h4>
+                </div>
+                <div class="cv-item">
+                    <div class="cv-meta">
                         <p class="institution">Long Island University</p>
-                        <p class="year">February 2016 &ndash; May 2018</p>
-                        <p class="description">Thesis: <em>Nanofiber Formation and Crystallization Behaviors of Poly(Ethylene Naphthalate)</em></p>
+                        <p class="year">Feb 2016 &ndash; May 2018</p>
+                    </div>
+                    <div class="cv-body">
+                        <h4>M.Sc. in Physical Chemistry</h4>
+                        <p>Thesis: <em>Nanofiber Formation and Crystallization Behaviors of Poly(Ethylene Naphthalate)</em></p>
                     </div>
                 </div>
+            </div>
 
-                <div class="cv-section">
-                    <h3>Professional Experience</h3>
-                    <div class="cv-item">
+            <div class="cv-block">
+                <h3>Professional Experience</h3>
+                <div class="cv-item">
+                    <div class="cv-meta">
+                        <p class="institution">Hunter College, CUNY, New York, NY</p>
+                        <p class="year">Sept 2021 &ndash; Aug 2026</p>
+                    </div>
+                    <div class="cv-body">
                         <h4>Research Assistant</h4>
-                        <p class="institution">Hunter College, CUNY , New York, NY</p>
-                        <p class="year">September 2021 &ndash; August 2026</p>
                         <ul>
                             <li>Ran quantum-mechanical, classical molecular-dynamics and <em>ab initio</em> molecular-dynamics simulations on HPC infrastructure to model the conformations of therapeutically relevant glycans, validating predictions against experimental NMR (U.S. Food and Drug Administration) and gas-phase spectroscopy (Freie Universit&auml;t Berlin).</li>
                             <li>Orchestrated multi-step, high-throughput simulation workflows across HPC clusters (Slurm), coordinating multiple quantum-chemistry and molecular-dynamics platforms.</li>
                             <li>Designed and maintained the research group's scientific Python tooling, providing automated end-to-end pipelines for simulation-data curation, benchmarking and publication-quality visualization.</li>
                         </ul>
                     </div>
-                    <div class="cv-item">
+                </div>
+                <div class="cv-item">
+                    <div class="cv-meta">
+                        <p class="institution">Nucleate New York, New York, NY</p>
+                        <p class="year">Aug 2025 &ndash; June 2026</p>
+                    </div>
+                    <div class="cv-body">
                         <h4>Director of Communications</h4>
-                        <p class="institution">Nucleate New York , New York, NY</p>
-                        <p class="year">August 2025 &ndash; June 2026</p>
                         <ul>
                             <li>Led strategic communications for one of the largest chapters of an international nonprofit accelerator supporting biotech and life-science entrepreneurs.</li>
                             <li>Co-organized Biohackathon 2026 (NextGen BioAgents), coordinating multi-institutional teams, speaker recruitment and event logistics.</li>
                             <li>Served as primary liaison between Nucleate New York and the broader NYC life-sciences community.</li>
                         </ul>
                     </div>
-                    <div class="cv-item">
-                        <h4>Experts and Mentors Lead</h4>
-                        <p class="institution">Nucleate New York , New York, NY</p>
-                        <p class="year">July 2024 &ndash; August 2025</p>
-                        <p class="description">Recruited and coordinated subject-matter experts and mentors supporting early-stage biotech founders.</p>
+                </div>
+                <div class="cv-item">
+                    <div class="cv-meta">
+                        <p class="institution">Nucleate New York, New York, NY</p>
+                        <p class="year">July 2024 &ndash; Aug 2025</p>
                     </div>
-                    <div class="cv-item">
+                    <div class="cv-body">
+                        <h4>Experts and Mentors Lead</h4>
+                        <p>Recruited and coordinated subject-matter experts and mentors supporting early-stage biotech founders.</p>
+                    </div>
+                </div>
+                <div class="cv-item">
+                    <div class="cv-meta">
+                        <p class="institution">Naturex (part of Givaudan), New Jersey</p>
+                        <p class="year">Jan 2019 &ndash; Feb 2020</p>
+                    </div>
+                    <div class="cv-body">
                         <h4>Research and Development Chemist</h4>
-                        <p class="institution">Naturex (part of Givaudan) , New Jersey</p>
-                        <p class="year">January 2019 &ndash; February 2020</p>
                         <ul>
                             <li>Led an end-to-end research project on the health benefits and optimal extraction methodologies of gingerols and shogaols, bioactive phenolic compounds in ginger.</li>
                             <li>Designed and benchmarked extraction protocols including solvent and supercritical CO<sub>2</sub> extraction, evaluating yield, purity and compound stability.</li>
                             <li>Characterized extract composition by HPLC and LC-MS, correlating extraction conditions with gingerol-to-shogaol conversion under varying thermal treatments.</li>
                         </ul>
                     </div>
-                    <div class="cv-item">
+                </div>
+                <div class="cv-item">
+                    <div class="cv-meta">
+                        <p class="institution">Long Island University, Brooklyn, NY</p>
+                        <p class="year">Feb 2016 &ndash; May 2018</p>
+                    </div>
+                    <div class="cv-body">
                         <h4>Teaching Assistant</h4>
-                        <p class="institution">Long Island University , Brooklyn, NY</p>
-                        <p class="year">February 2016 &ndash; May 2018</p>
-                        <p class="description">Instruction and laboratory supervision across undergraduate physical, analytical and organic chemistry courses.</p>
+                        <p>Instruction and laboratory supervision across undergraduate physical, analytical and organic chemistry courses.</p>
                     </div>
                 </div>
+            </div>
 
-                <div class="cv-section">
-                    <h3>Technical Skills</h3>
-                    <div class="skills-grid">
-                        <div class="skill-category">
-                            <h4>Molecular Modeling &amp; Simulation</h4>
-                            <ul>
-                                <li>Quantum mechanics (Gaussian, ORCA, FHI-aims, CP2K, CFOUR)</li>
-                                <li>Classical MD (GROMACS, AMBER)</li>
-                                <li><em>Ab initio</em> molecular dynamics (CP2K)</li>
-                                <li>Potential energy surfaces &amp; conformational analysis</li>
-                                <li>Validation against experimental data</li>
-                            </ul>
-                        </div>
-                        <div class="skill-category">
-                            <h4>Free Energy &amp; Model Validation</h4>
-                            <ul>
-                                <li>DFT conformer free energies</li>
-                                <li>Boltzmann-weighted free energies from MD</li>
-                                <li>Free energy landscape mapping</li>
-                                <li>Benchmarking of functionals, basis sets &amp; force fields</li>
-                            </ul>
-                        </div>
-                        <div class="skill-category">
-                            <h4>Programming &amp; Computing</h4>
-                            <ul>
-                                <li>Python (NumPy, pandas, SciPy, scikit-learn)</li>
-                                <li>Version-controlled scientific packages (Git/GitHub)</li>
-                                <li>HPC at scale with Slurm</li>
-                                <li>Cheminformatics (RDKit, Open Babel)</li>
-                                <li>Data visualization (Matplotlib, Seaborn)</li>
-                                <li>Linux, macOS</li>
-                            </ul>
-                        </div>
+            <div class="cv-block">
+                <h3>Technical Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Modeling and Simulation</h4>
+                        <ul>
+                            <li>Quantum mechanics (Gaussian, ORCA, FHI-aims, CP2K, CFOUR)</li>
+                            <li>Classical MD (GROMACS, AMBER)</li>
+                            <li><em>Ab initio</em> molecular dynamics (CP2K)</li>
+                            <li>Potential energy surfaces and conformational analysis</li>
+                            <li>Validation against experimental data</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Free Energy and Validation</h4>
+                        <ul>
+                            <li>DFT conformer free energies</li>
+                            <li>Boltzmann-weighted free energies from MD</li>
+                            <li>Free energy landscape mapping</li>
+                            <li>Benchmarking of functionals, basis sets and force fields</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Programming and Computing</h4>
+                        <ul>
+                            <li>Python (NumPy, pandas, SciPy, scikit-learn)</li>
+                            <li>Version-controlled scientific packages (Git/GitHub)</li>
+                            <li>HPC at scale with Slurm</li>
+                            <li>Cheminformatics (RDKit, Open Babel)</li>
+                            <li>Data visualization (Matplotlib, Seaborn)</li>
+                            <li>Linux, macOS</li>
+                        </ul>
                     </div>
                 </div>
+            </div>
 
-                <div class="cv-section">
-                    <h3>Awards &amp; Honors</h3>
-                    <div class="cv-item">
-                        <h4>Cliff Soll Advanced Award</h4>
-                        <p class="institution">Hunter College, Department of Chemistry</p>
-                        <p class="year">2025, 2023</p>
-                    </div>
-                    <div class="cv-item">
-                        <h4>Doctoral Student Research Grant</h4>
-                        <p class="institution">The Graduate Center, CUNY</p>
-                        <p class="year">2024</p>
-                    </div>
-                    <div class="cv-item">
-                        <h4>Best Poster Presentation</h4>
-                        <p class="institution">2nd Annual NanoBioNYC Symposium</p>
-                        <p class="year">2024</p>
-                    </div>
-                    <div class="cv-item">
-                        <h4>Breaking Boundaries Award for Cross-Cutting Computational Research</h4>
-                        <p class="institution">NanoBio NYC</p>
-                        <p class="year">2023</p>
-                    </div>
-                    <div class="cv-item">
-                        <h4>NanoBioNYC Scholar</h4>
-                        <p class="institution">NanoBio NYC</p>
-                        <p class="year">2023</p>
-                    </div>
-                </div>
+            <div class="cv-block">
+                <h3>Awards and Honors</h3>
+                <ul class="plain-list">
+                    <li>Cliff Soll Advanced Award, Hunter College Department of Chemistry (2025, 2023)</li>
+                    <li>Doctoral Student Research Grant, The Graduate Center, CUNY (2024)</li>
+                    <li>Best Poster Presentation, 2nd Annual NanoBioNYC Symposium (2024)</li>
+                    <li>Breaking Boundaries Award for Cross-Cutting Computational Research, NanoBio NYC (2023)</li>
+                    <li>NanoBioNYC Scholar, NanoBio NYC (2023)</li>
+                </ul>
+            </div>
 
-                <div class="cv-section">
-                    <h3>Selected Conferences &amp; Presentations</h3>
-                    <ul class="talks-list">
-                        <li>Computational Medicinal Chemistry School, Poster, Boston, MA (2025)</li>
-                        <li>22nd European Carbohydrate Symposium, Poster, Gda&#324;sk, Poland (2025)</li>
-                        <li>NYC AI4Chemistry Summit, Poster, New York, NY (2025)</li>
-                        <li>Nucleate Alumni Summit, Volunteer organizer, Boston, MA (2025)</li>
-                        <li>Bio-Inspired Green Science and Technology Symposium, Oral, New York, NY (2024)</li>
-                        <li>Machine Learning of First-Principles Observables, Poster, Berlin, Germany (2024)</li>
-                        <li>New England Glyco-Chemistry Meeting, Oral (2024), Poster (2023)</li>
-                        <li>Gordon Research Conference on Carbohydrates, Poster (2023)</li>
-                    </ul>
-                </div>
+            <div class="cv-block">
+                <h3>Selected Conferences and Presentations</h3>
+                <ul class="plain-list">
+                    <li>Computational Medicinal Chemistry School, Poster, Boston, MA (2025)</li>
+                    <li>22nd European Carbohydrate Symposium, Poster, Gda&#324;sk, Poland (2025)</li>
+                    <li>NYC AI4Chemistry Summit, Poster, New York, NY (2025)</li>
+                    <li>Nucleate Alumni Summit, Volunteer organizer, Boston, MA (2025)</li>
+                    <li>Bio-Inspired Green Science and Technology Symposium, Oral, New York, NY (2024)</li>
+                    <li>Machine Learning of First-Principles Observables, Poster, Berlin, Germany (2024)</li>
+                    <li>New England Glyco-Chemistry Meeting, Oral (2024), Poster (2023)</li>
+                    <li>Gordon Research Conference on Carbohydrates, Poster (2023)</li>
+                </ul>
+            </div>
 
-                <div class="cv-section">
-                    <h3>Academic Service</h3>
-                    <div class="cv-item">
-                        <h4>Peer Reviewer</h4>
-                        <p class="institution">Nature Communications</p>
-                        <p class="year">2025</p>
-                    </div>
-                </div>
+            <div class="cv-block">
+                <h3>Academic Service</h3>
+                <ul class="plain-list">
+                    <li>Peer Reviewer, Nature Communications (2025)</li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="section">
+    <section id="contact" class="section section--blue">
         <div class="container">
-            <h2 class="section-title">Contact</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <p><a href="mailto:muratyaman.phd@gmail.com">muratyaman.phd@gmail.com</a></p>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-location-dot"></i>
-                        <p>New York, NY</p>
-                    </div>
-                    <div class="social-links">
-                        <a href="https://www.linkedin.com/in/yaman-murat/" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://scholar.google.com/citations?user=yCsyEBUAAAAJ" class="social-link" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-                        <a href="https://orcid.org/0000-0001-6563-1434" class="social-link" target="_blank" rel="noopener" aria-label="ORCID"><i class="fab fa-orcid"></i></a>
-                        <a href="https://github.com/marianski-lab/CarPpy" class="social-link" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                    </div>
+            <div class="section-head">
+                <p class="eyebrow">06 / Contact</p>
+                <h2 class="section-title">Contact</h2>
+            </div>
+            <div class="contact-grid">
+                <div>
+                    <h4>Email</h4>
+                    <p><a href="mailto:muratyaman.phd@gmail.com">muratyaman.phd@gmail.com</a></p>
+                </div>
+                <div>
+                    <h4>Location</h4>
+                    <p>New York, NY</p>
+                </div>
+                <div>
+                    <h4>Elsewhere</h4>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/yaman-murat/" target="_blank" rel="noopener">LinkedIn</a></li>
+                        <li><a href="https://scholar.google.com/citations?user=yCsyEBUAAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+                        <li><a href="https://orcid.org/0000-0001-6563-1434" target="_blank" rel="noopener">ORCID</a></li>
+                        <li><a href="https://github.com/marianski-lab/CarPpy" target="_blank" rel="noopener">GitHub</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -347,7 +393,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; <span class="copyright-year">2026</span> <span class="user-name">Murat Yaman</span>. All rights reserved.</p>
+            <p>&copy; <span class="copyright-year">2026</span> Murat Yaman</p>
         </div>
     </footer>
 
