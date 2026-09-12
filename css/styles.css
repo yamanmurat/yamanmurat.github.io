@@ -515,3 +515,60 @@ code {
     padding: 2px 5px;
     border-radius: 3px;
 }
+
+/* --- Additions for the content rewrite --- */
+.subsection-title {
+    margin: 10px 0 20px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--border-color);
+    color: var(--dark-color);
+    font-size: 1.15rem;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.publication + .subsection-title {
+    margin-top: 35px;
+}
+
+.publication-note {
+    color: #666;
+    margin-bottom: 25px;
+    font-size: 0.95rem;
+}
+
+.note {
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.cv-item ul,
+.about-text ul {
+    margin: 10px 0 0 20px;
+}
+
+.cv-item ul li,
+.about-text ul li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.talks-list {
+    margin-left: 20px;
+}
+
+.talks-list li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.contact-item a {
+    color: inherit;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

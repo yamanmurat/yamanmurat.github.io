@@ -2,9 +2,10 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     // Update copyright year automatically
-    const currentYear = new Date().getFullYear();
-    document.querySelector('footer .container p').innerHTML = 
-        `&copy; ${currentYear} <span class="user-name">Your Name</span>. All rights reserved.`;
+    const yearSpan = document.querySelector('footer .copyright-year');
+    if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+    }
     
     // Smooth scrolling for navigation links
     document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
